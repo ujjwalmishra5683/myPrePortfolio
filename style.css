@@ -1,0 +1,201 @@
+body{
+    overflow:hidden;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.left{
+    float: left;
+    height: 100vh;
+    background-color: whitesmoke;
+    width: 49.99999999999%;
+}
+
+.right{
+    height: 100vh;
+    background-color: rgb(207, 207, 207);
+    width: 50%;
+    float: right;
+}
+
+img{
+    padding: 60px 230px ;
+    image-rendering:optimizeQuality;
+    image-rendering: optimizeSpeed;
+    image-rendering: pixelated;
+    
+    width: 20wh;
+    height: 40vh;
+}
+
+#name{
+    position: relative;
+    top: -80px;
+    left: 170px;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#deg{
+    position: relative;
+    top: -110px;
+    left: 220px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#email{
+    height: 50px;
+    width: 300px;
+    position: relative;
+    top: -89px;
+    border: 20px solid yellow;
+    left: 200px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#email:hover{
+    background-color: rgb(203, 240, 245);
+    color: black;
+    font-size: larger;
+}
+
+#btn{
+    text-decoration: none;
+    color: white;
+}
+
+#btn:hover{
+    color:black;
+}
+
+#insta{
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    top: 570px;
+    left: 275px;
+    height: 30px;
+    width: 30px;
+}
+
+#insta:hover{
+    height: 40px;
+    width: 40px;
+}
+
+#tweet{
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    top: 570px;
+    left: 325px;
+    height: 30px;
+    width: 30px;
+}
+
+#tweet:hover{
+    height: 40px;
+    width: 40px;
+}
+
+#fb{
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    top: 570px;
+    left: 370px;
+    height: 30px;
+    width: 30px;
+}
+
+#fb:hover{
+    height: 40px;
+    width: 40px;
+}
+
+#link{
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    top: 570px;
+    left: 415px;
+    height: 30px;
+    width: 30px;
+}
+
+#link:hover{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+#about{
+    position: relative;
+    top: 60px;
+    left: 190px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#cont{
+    height: 230px;
+    width: 70%;
+    justify-content:space-evenly;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 95px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    line-height:24px;
+}
+
+#eimple{
+    color:rgb(4, 39, 82);
+    font-size: 25px;
+}
+
+#eimple:link{
+    text-decoration: none;
+}
+
+
+#resume{
+    height: 50px;
+    width: 250px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+#resume:hover{
+    background-color: rgb(203, 240, 245);
+    color: black;
+    font-size: larger;
+}
+
+#portfolio{
+    height: 50px;
+    width: 250px;
+    position: relative;
+    top: 55px;
+    left: 110px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+#portfolio:hover{
+    background-color: rgb(203, 240, 245);
+    color: black;
+    font-size: larger;
+}
